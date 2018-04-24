@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="292" started-at="2018-04-24T19:10:47Z" finished-at="2018-04-24T19:10:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="292" started-at="2018-04-24T19:10:47Z" finished-at="2018-04-24T19:10:47Z">
+      <class name="com.labutin.task1.action.SphereActionTest">
+        <test-method status="PASS" signature="checkOnTouchCoordinatePlanesTest()[pri:0, instance:com.labutin.task1.action.SphereActionTest@573f2bb1]" name="checkOnTouchCoordinatePlanesTest" duration-ms="16" started-at="2018-04-24T22:10:47Z" finished-at="2018-04-24T22:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnTouchCoordinatePlanesTest -->
+        <test-method status="PASS" signature="countAreaTest()[pri:0, instance:com.labutin.task1.action.SphereActionTest@573f2bb1]" name="countAreaTest" duration-ms="2" started-at="2018-04-24T22:10:47Z" finished-at="2018-04-24T22:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countAreaTest -->
+        <test-method status="PASS" signature="countVolumeRatioTest()[pri:0, instance:com.labutin.task1.action.SphereActionTest@573f2bb1]" name="countVolumeRatioTest" duration-ms="2" started-at="2018-04-24T22:10:47Z" finished-at="2018-04-24T22:10:47Z">
+          <exception class="com.labutin.task1.exception.IncorrectParameterException">
+            <full-stacktrace>
+              <![CDATA[com.labutin.task1.exception.IncorrectParameterException
+	at com.labutin.task1.action.SphereAction.countVolumeRatio(SphereAction.java:24)
+	at com.labutin.task1.action.SphereActionTest.countVolumeRatioTest(SphereActionTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.labutin.task1.exception.IncorrectParameterException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countVolumeRatioTest -->
+        <test-method status="PASS" signature="countVolumeRatioTestExcepion()[pri:0, instance:com.labutin.task1.action.SphereActionTest@573f2bb1]" name="countVolumeRatioTestExcepion" duration-ms="3" started-at="2018-04-24T22:10:47Z" finished-at="2018-04-24T22:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countVolumeRatioTestExcepion -->
+        <test-method status="PASS" signature="countVolumeTset()[pri:0, instance:com.labutin.task1.action.SphereActionTest@573f2bb1]" name="countVolumeTset" duration-ms="1" started-at="2018-04-24T22:10:47Z" finished-at="2018-04-24T22:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countVolumeTset -->
+      </class> <!-- com.labutin.task1.action.SphereActionTest -->
+      <class name="com.labutin.task1.factory.BuilderTest">
+        <test-method status="PASS" signature="pointBuilderTest()[pri:0, instance:com.labutin.task1.factory.BuilderTest@548b7f67]" name="pointBuilderTest" duration-ms="92" started-at="2018-04-24T22:10:47Z" finished-at="2018-04-24T22:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pointBuilderTest -->
+        <test-method status="PASS" signature="sphereBuilderTest()[pri:0, instance:com.labutin.task1.factory.BuilderTest@548b7f67]" name="sphereBuilderTest" duration-ms="3" started-at="2018-04-24T22:10:47Z" finished-at="2018-04-24T22:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sphereBuilderTest -->
+      </class> <!-- com.labutin.task1.factory.BuilderTest -->
+      <class name="com.labutin.task1.reader.DataManagerTest">
+        <test-method status="PASS" signature="testSphereData()[pri:0, instance:com.labutin.task1.reader.DataManagerTest@7ac7a4e4]" name="testSphereData" duration-ms="115" started-at="2018-04-24T22:10:47Z" finished-at="2018-04-24T22:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSphereData -->
+      </class> <!-- com.labutin.task1.reader.DataManagerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

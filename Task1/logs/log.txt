@@ -1,0 +1,1 @@
+24.04.2018 22:10:47 INFO  com.labutin.task1.factory.Director - result is Point Point [x=3.0, y=3.0, z=3.0]
