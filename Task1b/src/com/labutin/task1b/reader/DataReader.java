@@ -29,9 +29,6 @@ public class DataReader {
 			e.printStackTrace();
 			logger.error("No file", e);
 		} 
-		if (dataList == null) {
-			throw new NoDataException();
-		}
 		return dataList;
 	}
 }

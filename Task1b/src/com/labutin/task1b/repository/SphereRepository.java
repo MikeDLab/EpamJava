@@ -19,9 +19,8 @@ public class SphereRepository implements Repository {
 	@Override
 	public boolean add(Sphere item) {
 		// TODO Автоматически созданная заглушка метода
-		SphereWarehouse entities = SphereWarehouse.getWarehouse();
 		if (item != null) {
-			entities.getItems().add(item);
+			SphereWarehouse.getWarehouse().getItems().add(item);
 			return true;
 		}
 		return false;

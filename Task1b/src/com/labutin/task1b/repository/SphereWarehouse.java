@@ -1,12 +1,13 @@
 package com.labutin.task1b.repository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.labutin.task1b.entity.Sphere;
 
 public class SphereWarehouse{
 	
-	private List<Sphere> items;
+	private static List<Sphere> items = new ArrayList<Sphere>();
 	private SphereWarehouse() {
 		// TODO Автоматически созданная заглушка конструктора
 	}
@@ -16,7 +17,7 @@ public class SphereWarehouse{
 	}
 	private static class SingletonWarehouse
 	{
-		private final static SphereWarehouse warehouse =getWarehouse();
+		private final static SphereWarehouse warehouse = new SphereWarehouse();
 	}
 	public static SphereWarehouse getWarehouse()
 	{
