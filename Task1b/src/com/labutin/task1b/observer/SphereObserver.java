@@ -1,19 +1,16 @@
 package com.labutin.task1b.observer;
 
-public class SphereObserver implements Observer {
-	private SphereRegistrator registrator;
+import com.labutin.task1b.action.SphereAction;
+import com.labutin.task1b.repository.SphereRegistratorWarehouse;
 
-	public SphereObserver(SphereRegistrator reg) {
+public class SphereObserver implements Observer {
+	public SphereObserver() {
 		// TODO Автоматически созданная заглушка конструктора
-		this.registrator = reg;
 	}
 
 	@Override
 	public void handleEvent(SphereEvent event) {
-		if(registrator != null)
-		{
-		registrator.recount();
-		}
+		SphereRegistratorWarehouse.getWarehouse().getItems().get(1).setRadius(SphereAction.countArea(event.getSourse()));
 	}
 
 }

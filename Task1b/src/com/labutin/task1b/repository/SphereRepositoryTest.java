@@ -18,7 +18,7 @@ public class SphereRepositoryTest {
 		sphere.setCentroid(centroid);
 		sphere.setId(10L);
 		repository.add(sphere);
-		boolean act = (sphere == repository.find(new FindById(10L)));
+		boolean act = (sphere == repository.querry(new FindSphereByIdSpecification(10L)));
 		boolean exp = true;
 		Assert.assertEquals(act, exp);
 	}

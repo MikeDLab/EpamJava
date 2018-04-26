@@ -5,15 +5,15 @@ import java.util.List;
 
 import com.labutin.task1b.entity.Sphere;
 
-public class FindById implements FindSpecification {
+public class FindSphereByIdSpecification implements SphereSpecification {
 	private Long key;
-	public FindById(Long key) {
+	public FindSphereByIdSpecification(Long key) {
 		// TODO Автоматически созданная заглушка конструктора
 		this.key = key;
 	}
 
 	@Override
-	public Sphere findSphere(List<Sphere> items) {
+	public Sphere querry(List<Sphere> items) {
 		// TODO Автоматически созданная заглушка метода
 		Iterator<Sphere> iterator = items.iterator();
 		while (iterator.hasNext()) {		

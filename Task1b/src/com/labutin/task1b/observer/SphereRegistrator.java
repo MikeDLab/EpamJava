@@ -10,8 +10,7 @@ import com.labutin.task1b.entity.Sphere;
 public class SphereRegistrator {
 	private double area;
 	private double volume;
-	private Sphere sphere;
-	private SphereObserver obs = new SphereObserver(this);
+	private Long id;
 	static {
 		new DOMConfigurator().doConfigure("log4j.xml", LogManager.getLoggerRepository());
 	}
@@ -35,20 +34,18 @@ public class SphereRegistrator {
 	public void setVolume(double volume) {
 		this.volume = volume;
 	}
-
-	public void recount() {
+	//вынести в отдельный класс
+	public void recount(Sphere sphere) {
 		this.area = SphereAction.countArea(sphere);
 		this.volume = SphereAction.countVolume(sphere);
 		logger.info("result is Area:  " + area + " Volume: " + volume);
 	}
-	public void setSphere(Sphere sphere)
+	public void setId(Long id)
 	{
-		this.sphere = sphere;
-		recount();
-		this.sphere.setObserver(obs);
+		this.id = id;
 	}
-	public Sphere getSphere()
+	public Long getId()
 	{
-		return sphere;
+		return id;
 	}
 }

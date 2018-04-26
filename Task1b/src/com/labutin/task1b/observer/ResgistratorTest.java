@@ -16,7 +16,6 @@ public class ResgistratorTest {
 	  centroid.setPoint(0.0,0.0,0.0);
 	  sphere.setRadius(1.0);  
 	  sphere.setCentroid(centroid);
-	  reg.setSphere(sphere);
 	  sphere.setRadius(3.0);
 	  double expArea = 113.09;
 	  double actArea = reg.getArea();
