@@ -1,0 +1,16 @@
+25.04.2018 22:54:52 INFO  com.labutin.task1b.repository.Registrator - result is Area:  113.09733552923255 Volume: 113.09733552923255
+25.04.2018 23:01:27 INFO  com.labutin.task1b.repository.Registrator - result is Area:  113.09733552923255 Volume: 113.09733552923255
+25.04.2018 23:02:12 INFO  com.labutin.task1b.repository.Registrator - result is Area:  12.566370614359172 Volume: 4.1887902047863905
+25.04.2018 23:02:12 INFO  com.labutin.task1b.repository.Registrator - result is Area:  113.09733552923255 Volume: 113.09733552923255
+26.04.2018 00:55:48 INFO  com.labutin.task1b.repository.SphereRegistrator - result is Area:  12.566370614359172 Volume: 4.1887902047863905
+26.04.2018 00:55:48 INFO  com.labutin.task1b.repository.SphereRegistrator - result is Area:  113.09733552923255 Volume: 113.09733552923255
+26.04.2018 01:25:11 INFO  com.labutin.task1b.repository.SphereRepository - Result find is : Sphere [centroid=Point [x=0.0, y=0.0, z=0.0], radius=1.0, id=10]
+26.04.2018 01:26:45 INFO  com.labutin.task1b.repository.SphereRepository - Result find is : Sphere [centroid=Point [x=0.0, y=0.0, z=0.0], radius=1.0, id=10]
+26.04.2018 01:27:23 INFO  com.labutin.task1b.repository.SphereRepository - Result find is : Sphere [centroid=Point [x=0.0, y=0.0, z=0.0], radius=1.0, id=10]
+26.04.2018 07:58:40 INFO  com.labutin.task1b.repository.SphereRepository - Result find is : Sphere [centroid=Point [x=0.0, y=0.0, z=0.0], radius=1.0, id=10]
+26.04.2018 07:59:06 INFO  com.labutin.task1b.observer.SphereRegistrator - result is Area:  12.566370614359172 Volume: 4.1887902047863905
+26.04.2018 07:59:06 INFO  com.labutin.task1b.observer.SphereRegistrator - result is Area:  113.09733552923255 Volume: 113.09733552923255
+26.04.2018 08:58:30 INFO  com.labutin.task1b.repository.SphereRepository - Result find is : Sphere [centroid=Point [x=0.0, y=0.0, z=0.0], radius=1.0, id=10]
+26.04.2018 09:02:28 INFO  com.labutin.task1b.observer.SphereRegistrator - result is Area:  12.566370614359172 Volume: 4.1887902047863905
+26.04.2018 09:02:28 INFO  com.labutin.task1b.observer.SphereRegistrator - result is Area:  113.09733552923255 Volume: 113.09733552923255
+26.04.2018 09:09:38 INFO  com.labutin.task1b.repository.SphereRepository - Result find is : Sphere [centroid=Point [x=0.0, y=0.0, z=0.0], radius=1.0, id=10]

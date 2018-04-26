@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41" started-at="2018-04-26T06:09:38Z" finished-at="2018-04-26T06:09:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41" started-at="2018-04-26T06:09:38Z" finished-at="2018-04-26T06:09:38Z">
+      <class name="com.labutin.task1b.repository.SphereRepositoryTest">
+        <test-method status="PASS" signature="FindByIdSpecificationTest()[pri:0, instance:com.labutin.task1b.repository.SphereRepositoryTest@271053e1]" name="FindByIdSpecificationTest" duration-ms="14" started-at="2018-04-26T09:09:38Z" finished-at="2018-04-26T09:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindByIdSpecificationTest -->
+      </class> <!-- com.labutin.task1b.repository.SphereRepositoryTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
